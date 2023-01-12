@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkcyan;
+  padding: 20px;
+}
+
+header ul{
+display: flex;
+ gap: 40px;
+}
+
+header ul li{
+  list-style: none;
+}
+
+.link{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+
+table{
+  width: 100%;
+  padding: 10px;
+  color: cadetblue;
+  font-size: 15px;
+}
+
+th{
+  font-size: 20px;
+  padding: 10px;
+}
+td{
+  text-align: center;
+  padding: 10px;
+}
+.deleteBTN{
+  background-color: darkred;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: all .3s ease;
+  border: 1px solid transparent;
+}
+
+.deleteBTN:hover{
+   color: darkred;
+   background-color: white;
+   border-color:  darkred;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+label{
+  color: darkcyan;
+  font-size: 20px;
+}
+input{
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid darkcyan;
+  outline: none;
+}
+
+.addBTN{
+  background-color: darkcyan;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: all .3s ease;
+  border: 1px solid transparent;
+}
+.addBTN:hover{
+  color: darkcyan;
+  background-color: white;
+  border-color:  darkcyan;
+}
