@@ -22,7 +22,7 @@ const deleteCustomer=(id)=>{
 const addFavorites=(item)=>{
   dispatch(favoritesAction.addFav(item))
 }
-  console.log(crud)
+  // console.log(crud)
   return (
     <div>
       <ToastContainer />
